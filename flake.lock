@@ -1,0 +1,59 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "milagro-crypto-js": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1570014019,
+        "narHash": "sha256-3lumhbLtXd+UGp4QMV7Ix3elfyblcR+TG/DMrLrRfPU=",
+        "owner": "apache",
+        "repo": "incubator-milagro-crypto-js",
+        "rev": "2fe9ca56dea97bf66721fa1e6114d6208b736d99",
+        "type": "github"
+      },
+      "original": {
+        "owner": "apache",
+        "repo": "incubator-milagro-crypto-js",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1661262176,
+        "narHash": "sha256-42FXNd2B0QECaULG0Vx+oYzQ9euKcmlg2gmX2D+HbKI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b9fd420fa535fd254c6f1f26df770b32a9dc98b4",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-22.05",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "milagro-crypto-js": "milagro-crypto-js",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
